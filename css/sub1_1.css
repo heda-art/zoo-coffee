@@ -1,0 +1,145 @@
+#content {
+  position: relative;
+  top: 130px;
+  width: 1920px;
+  min-width: 1200px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#content > header {
+  width: 1920px;
+  height: 400px;
+  display: block;
+  background: url("../image/sub1-1banner.png");
+}
+
+/* lnb 영역 */
+#lnb {
+  width: 1200px;
+  margin: 0 auto;
+  /* background: #abc; */
+}
+#lnb::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+#lnb ul li a {
+  float: left;
+  width: 240px;
+  height: 60px;
+  line-height: 60px;
+/*     font-weight: 500; */
+  font-size: 18px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+#lnb .accent {
+  background:#000;
+  color: #fff;
+}
+
+/* breadcrumb */
+#main > .location {
+  /* background: #ccc; */
+  width: 1200px;
+  margin: 0 auto;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 30px;
+}
+
+#sub_main_contents {
+  width: 1200px;
+  height: 2283px;
+  margin: 0 auto;
+  /* outline: 1px solid red; */
+}
+
+#sub_main_contents h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3F271F;
+  margin-bottom: 50px;
+}
+
+#sub_main_contents p {
+  font-size: 16px;
+  line-height: 40px;
+}
+
+#sub_main_contents .story {
+  width: 1200px;
+  height: 495px;
+  /* outline: 1px solid red; */
+  padding-top: 190px;
+  position: relative;
+}
+
+#sub_main_contents .story img {
+  position: absolute;
+  top: 188px;
+  left: 0;
+}
+#sub_main_contents .story div {
+  width: 630px;
+  height: 266px;
+  /* outline: 1px solid red; */
+  position: absolute;
+  top: 188px;
+  left: 570px;
+}
+#sub_main_contents .unique {
+  height: 490px;
+  /* outline: 1px solid red; */
+  position: relative;
+}
+
+#sub_main_contents .unique div {
+  width: 511px;
+  height: 226px;
+  /* outline: 1px solid red; */
+  position: absolute;
+  top: 149px;
+  left: 30px;
+}
+
+#sub_main_contents .unique img {
+  position: absolute;
+  top: 148px;
+  left: 658px;
+}
+
+#sub_main_contents .global {
+  height: 395px;
+  /* outline: 1px solid red; */
+  position: relative;
+}
+
+#sub_main_contents .global div {
+  width: 549px;
+  height: 186px;
+  /* outline: 1px solid red; */
+  position: absolute;
+  top: 111px;
+  left: 600px;
+}
+
+#sub_main_contents .global img {
+  position: absolute;
+  top: 67px;
+  left: 0;
+}
+
+#sub_main_contents .popular {
+  height: 472px;
+  /* outline: 1px solid red; */
+  /* position: relative; */
+}
+
+#sub_main_contents .popular div {
+  text-align: center;
+  padding-top: 122px;
+}
